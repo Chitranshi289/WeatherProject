@@ -2,27 +2,19 @@ body{
     display: flex;
   justify-content: center;
   position: relative;
-    background-image: url("https://source.unsplash.com/1600x900/?climate");
+    background-image: url("https://source.unsplash.com/1600x900/?snow");
     background-repeat: no-repeat;
     background-attachment: scroll;
     max-width: fit-content;
     max-height:fit-content;
     background-clip: border-box;
     align-items: center;
-    margin-left:200px;
-    margin-top: 100px;
+
+    margin-top: 50px;
 
 }
 
-.app-wrap{
-    background:grey;
-    color: white;
-    padding: 2em;
-    border-radius: 30px;
-    width: 100%;
-    max-width: 420px;
-    margin: 3em;
-}
+
 .temp{
     color:aliceblue ;
 }
@@ -33,6 +25,24 @@ header{
     justify-content: center;
     margin-top: -10px;
 }
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    outline: none;
+    background:grey;
+    color:burlywood;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background:white;
+
+}
+
 
 .search-bar{
     margin-right: 10px;
@@ -75,6 +85,17 @@ button:hover{
 
 input.search-bar:hover{
     background:white;
+}
+.app-wrap{
+    background-color: grey;
+    color:burlywood;
+    padding: 2em;
+    border-radius: 40px;
+    width: 100%;
+    max-width: 420px;
+    margin: 3em;
+    border-color:rgb(99, 97, 97):
+    border-style: inset;
 }
 
 
