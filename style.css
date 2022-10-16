@@ -15,7 +15,7 @@ body{
 }
 
 .app-wrap{
-    background: #000000d0;
+    background:grey;
     color: white;
     padding: 2em;
     border-radius: 30px;
@@ -46,8 +46,8 @@ input.search-bar{
     outline: none;
     padding: 0.4em 1em;
     border-radius: 24px;
-    background: #7c7c7c2b;
-    color: white;
+    background:whitesmoke;
+    color:black;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 105%;
     width: calc(100% - 100px);
@@ -63,18 +63,18 @@ button{
     width: 44px;
     outline: none;
     background: #7c7c7c2b;
-    color: white;
+    color:burlywood;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 button:hover{
-    background: #7c7c7c6b;
+    background:white;
 
 }
 
 input.search-bar:hover{
-    background: #7c7c7c6b;
+    background:white;
 }
 
 
@@ -91,7 +91,7 @@ h1.temp {
 .weather.loading::after{
     visibility: visible;
   content: "Loading...";
-  color: white;
+  color: black;
   position: absolute;
   top: 0;
   left: 20px;
